@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keerthana Mart - Home</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px 15px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            color: #ffcc66;
+        }
+
+        .hero {
+            background: #e8d8c3;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #222;
+            color: white;
+            padding: 12px 25px;
+            margin-top: 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background: #555;
+        }
+
+        .section {
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 230px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #ddd;
+        }
+
+        .card h3 {
+            color: #222;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h2 {
+                font-size: 27px;
+            }
+
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Keerthana Mart</h1>
+    <p>Your Everyday Shopping Destination</p>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="products">Products</a>
+    <a href="cart">My Cart</a>
+    <a href="login.html">Login</a>
+    <a href="seller.html">Seller</a>
+    <a href="admin.html">Admin</a>
+</nav>
+
+<section class="hero">
+    <h2>Welcome to Keerthana Mart!</h2>
+    <p>Discover quality products at affordable prices.</p>
+    <p>Shop smarter, save more, and enjoy a better shopping experience.</p>
+    <a href="products" class="button">Shop Now</a>
+</section>
+
+<section class="section">
+    <h2>Why Choose Keerthana Mart?</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <h3>Quality Products</h3>
+            <p>Explore products selected for your everyday needs.</p>
+        </div>
+
+        <div class="card">
+            <h3>Affordable Prices</h3>
+            <p>Find useful products at budget-friendly prices.</p>
+        </div>
+
+        <div class="card">
+            <h3>Easy Shopping</h3>
+            <p>Browse products, add items to your cart, and place orders.</p>
+        </div>
+
+        <div class="card">
+            <h3>Order Management</h3>
+            <p>View your previous orders after logging in.</p>
+            <a href="order-list" class="button">My Orders</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="section">
+    <h2>Start Shopping Today!</h2>
+    <p>Find what you need at Keerthana Mart.</p>
+    <a href="products" class="button">Explore Products</a>
+</section>
+
+<footer>
+    <p>&copy; 2026 Keerthana Mart. All Rights Reserved.</p>
+    <p>Shop Smart. Shop Better.</p>
+</footer>
+
+</body>
+</html>
